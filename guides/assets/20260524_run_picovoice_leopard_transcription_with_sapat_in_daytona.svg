@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sapat Picovoice Leopard transcription workflow in Daytona</title>
+  <desc id="desc">A workflow showing a Daytona sandbox running Sapat, converting video to MP3, transcribing locally with Picovoice Leopard, and writing a transcript file.</desc>
+  <rect width="960" height="420" fill="#f7f8fb"/>
+  <rect x="48" y="56" width="864" height="300" rx="14" fill="#ffffff" stroke="#d7dbe7" stroke-width="2"/>
+  <text x="84" y="104" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Daytona sandbox</text>
+  <text x="84" y="132" font-family="Arial, sans-serif" font-size="15" fill="#4d5a6f">Isolated Python workspace with ffmpeg, Sapat, and the optional pvleopard SDK</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="182" width="150" height="76" rx="10" fill="#eaf3ff" stroke="#8ebdf2"/>
+    <text x="167" y="213" text-anchor="middle" font-size="16" font-weight="700" fill="#173b69">video file</text>
+    <text x="167" y="238" text-anchor="middle" font-size="13" fill="#34506f">meeting.mp4</text>
+    <path d="M250 220 L325 220" stroke="#62728a" stroke-width="3" fill="none"/>
+    <path d="M325 220 l-10 -7 v14z" fill="#62728a"/>
+    <rect x="336" y="182" width="150" height="76" rx="10" fill="#edf8ef" stroke="#98d0a1"/>
+    <text x="411" y="213" text-anchor="middle" font-size="16" font-weight="700" fill="#1f5a2a">ffmpeg</text>
+    <text x="411" y="238" text-anchor="middle" font-size="13" fill="#3d6542">MP3 conversion</text>
+    <path d="M494 220 L569 220" stroke="#62728a" stroke-width="3" fill="none"/>
+    <path d="M569 220 l-10 -7 v14z" fill="#62728a"/>
+    <rect x="580" y="182" width="150" height="76" rx="10" fill="#fff4df" stroke="#f1bc65"/>
+    <text x="655" y="213" text-anchor="middle" font-size="16" font-weight="700" fill="#704500">Leopard</text>
+    <text x="655" y="238" text-anchor="middle" font-size="13" fill="#71562a">local STT engine</text>
+    <path d="M738 220 L813 220" stroke="#62728a" stroke-width="3" fill="none"/>
+    <path d="M813 220 l-10 -7 v14z" fill="#62728a"/>
+    <rect x="824" y="182" width="96" height="76" rx="10" fill="#f1edff" stroke="#b5a8ef"/>
+    <text x="872" y="213" text-anchor="middle" font-size="16" font-weight="700" fill="#3c2d78">text</text>
+    <text x="872" y="238" text-anchor="middle" font-size="13" fill="#594f82">.txt</text>
+  </g>
+  <rect x="92" y="288" width="350" height="36" rx="8" fill="#f4f6fa" stroke="#d7dbe7"/>
+  <text x="110" y="311" font-family="monospace" font-size="14" fill="#1b2537">sapat meeting.mp4 --api leopard</text>
+  <rect x="468" y="288" width="312" height="36" rx="8" fill="#f4f6fa" stroke="#d7dbe7"/>
+  <text x="486" y="311" font-family="monospace" font-size="14" fill="#1b2537">PICOVOICE_ACCESS_KEY=...</text>
+</svg>
